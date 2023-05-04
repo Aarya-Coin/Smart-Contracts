@@ -1,11 +1,11 @@
 const { ethers, upgrades } = require("hardhat");
 
 async function main() {
-  const VanarCoin2 = await ethers.getContractFactory("VanarCoin2");
-  console.log("Upgrading VanarCoin proxy...");
+  const Aarya = await ethers.getContractFactory("AaryaV2");
+  console.log("Upgrading Aarya proxy...");
   await upgrades.upgradeProxy(
-    "0xfeD72C2AB844Fe7475E5DE14677818605E642c2f", // Replace with your proxy contract's address
-    VanarCoin2
+    "0x0c3B13f9D5156d1195644852661bA61ae53A423C", // Replace with your proxy contract's address
+    Aarya
   );
   console.log("Upgraded Successfully");
 }
