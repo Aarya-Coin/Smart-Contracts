@@ -1,4 +1,4 @@
-#Aarya Smart Contract Repository
+# Aarya Smart Contract Repository
 
 Welcome to the Aarya Smart Contract repository! This repository houses the smart contracts for Aarya (ARY), a utility token designed to provide secure, fast, and low-cost transactions for businesses.
 
